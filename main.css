@@ -1,0 +1,58 @@
+/* 
+Quenton Juma 
+Assignment 2.1: Using CSS to make it personal
+*/
+
+/* 
+Declaration block:
+
+Selector{
+property1: value1;
+property2:value2;
+property3:value3;
+}
+*/
+
+body{
+    background-color: azure;
+    color: blueviolet;
+}
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memeImage{
+    display: block;  
+        width: 250px;  margin-left: auto;  margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+p{
+    color: darkblue;
+    font-size: larger;
+    
+}
+h2{
+    margin-right: auto;
+    margin-right: auto;
+}
+
+h3{
+    color: darkcyan;
+    display: block;  
+        width: 250px;  margin-left: auto;  margin-right: auto;
+}
