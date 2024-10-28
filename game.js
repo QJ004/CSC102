@@ -1,9 +1,3 @@
-function firstfunc()
-{
-    // this is just for pracice to learn how to do it
-    alert ("you have created your first function");
-}
-
 function average(num1, num2)
 {
     var avg=(num1+num2)/2.0;
@@ -11,13 +5,14 @@ function average(num1, num2)
 }
 
 function flipcoin()
+// This is where I set up on what image will appear when the players lick the button
 {
     var heads= Math.ceil(Math.random()*2);
     var tails= Math.ceil(Math.random()*2);
     var headsImage="Heads.png.jpeg";
     var tailsImage="tails.png.jpeg";
     document.getElementById("finalResult").innerHTML="updates"
-
+    // These are the terms and conditions that needs to be met for each player to win or lose.
     if(player1 == 1)
     {
         document.getElementById("player1Img").src=headsImage;
@@ -35,6 +30,7 @@ function flipcoin()
         {
             document.getElementById("player2Img").src=tailsImage;
         }
+    // This is where I update on what will appear when a player wins or loses
     if(player1 == player2)
     {
         document.getElementById("finalResult").innerHTML="DRAW"
