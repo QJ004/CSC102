@@ -7,8 +7,8 @@ function average(num1, num2)
 function flipcoin()
 // This is where I set up on what image will appear when the players lick the button
 {
-    var heads= Math.ceil(Math.random()*2);
-    var tails= Math.ceil(Math.random()*2);
+    var player1= Math.ceil(Math.random()*2);
+    var player2= Math.ceil(Math.random()*2);
     var headsImage="Heads.png.jpeg";
     var tailsImage="tails.png.jpeg";
     document.getElementById("finalResult").innerHTML="updates"
