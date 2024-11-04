@@ -1,0 +1,42 @@
+<!-- 
+    Quenton Juma
+    Assignment 3.2: User Input Validation
+    Nov. 2nd, 2024- Nov. 3rd, 2024
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Validation</title>
+    <link rel="stylesheet" href="string2.css">
+</head>
+<body>
+    <h1>Welcome to the Validation Form</h1>
+    
+    <!-- Form to collect user input for name and zip code -->
+    <form id="validationForm">
+        <!-- Input for first name -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        
+        <!-- Input for last name -->
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        
+        <!-- Input for zip code -->
+        <label for="zipCode">Zip Code:</label>
+        <input type="text" id="zipCode" name="zipCode" required>
+        
+        <!-- Button to submit and validate inputs -->
+        <button type="button" onclick="validateInputs()">Submit</button>
+    </form>
+
+    <!-- Section to display the secret message if inputs are valid -->
+    <div id="secretMessage" style="display: none;">
+        <p>Congratulations! You unlocked the secret message!</p>
+    </div>
+
+    <script src="string2.js"></script>
+</body>
+</html>
