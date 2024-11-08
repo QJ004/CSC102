@@ -1,7 +1,8 @@
 <!-- 
     Quenton Juma
-    Assignment 3.2: User Input Validation
-    Oct. 31 - Nov 2, 2024
+    Assignment 4.2: Incorporate Audio
+    Nov 8th, 2024
+    I added both sound effects below the form.
 -->
 
 <!DOCTYPE html>
@@ -26,6 +27,13 @@
 
         <button type="submit">Submit</button>
     </form>
+
+    <audio controls>
+        <source src="mixkit-cool-impact-movie-trailer-2909.wav" "audio/mpeg">
+    </audio>
+    <br>
+    <button onclick="play();">Play</button>
+    <button onclick="stop();">Stop</button>
 
     <!-- Message area for displaying validation messages -->
     <p id="message"></p> <!-- This element should match the `id` used in the JavaScript -->

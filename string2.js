@@ -1,5 +1,5 @@
 /* 
-    JavaScript for Assignment 3.2: User Input Validation
+   Assignment 4.2: Incorporate Audio
     Handles name and zip code validation.
 */
 
@@ -30,4 +30,23 @@ function validateInput() {
 
     // If everything is valid, display the secret message
     message.innerHTML = "Congratulations! You've entered valid information.";
+}
+// This is the code that you gave for the JS to play the sound from our file
+function sound(src)
+{// add play function
+    this.sound = document.createElement("audio") ;//create audio
+    this.sound.src = src;//define src
+    this.play = function() {//music function
+        this.sound.play();//play sound
+    }
+}
+// This is for the play and stop function and the stop button will reload the page
+function play()
+{
+    mySound= new sound("retro-game.wav");
+    mySound.play()
+}
+function stop()
+{
+    window.location.reload();
 }
