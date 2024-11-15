@@ -1,0 +1,29 @@
+<!-- 
+    Quenton Juma
+    Assignment 4.1: Event Driven Programming
+    Nov 10th-15th 2024
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move Image</title>
+    <link rel="stylesheet" href="move2.css">
+</head>
+<body>
+<!-- this is where all the content is stored -->
+    <div class="container">
+        <h1>Image Movement Demo</h1>
+        <div class="button-container">
+            <!-- these are the buttons to make the image move -->
+            <button id="startButton" onclick="intervalStart()">Start</button>
+            <button id="stopButton" onclick="intervalStop()" disabled>Stop</button>
+        </div>
+        <div class="image-container">
+            <img src="skull.png.jpeg" id="imgMeme" alt="Moving Image">
+        </div>
+    </div>
+    <script src="move2.js"></script>
+</body>
+</html>

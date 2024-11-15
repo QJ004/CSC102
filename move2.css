@@ -1,0 +1,77 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.button-container button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stopButton {
+    background-color: #f44336;
+    color: white;
+}
+
+.button-container button:disabled {
+    background-color: #ddd;
+    color: #888;
+    cursor: not-allowed;
+}
+
+.button-container button:hover:not(:disabled) {
+    opacity: 0.9;
+}
+
+/* Image Container Styling */
+.image-container {
+    position: relative;
+    height: 300px;
+    margin-top: 20px;
+    overflow: hidden; /* Prevents the image from moving outside */
+}
+
+/* Center Image Dynamically */
+#imgMeme {
+    position: absolute;
+    width: 100px; /* Adjusted size */
+    height: auto; /* Maintain aspect ratio */
+    left: 0;      /* Starting position */
+    top: 0;       /* Starting position */
+}
+
+
