@@ -3,25 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heads or Tails</title>
-    <script src = "game.js"></script>
-    <link rel="stylesheet" href="game.css">
+    <title>Coin Flip Game</title>
 </head>
 <body>
-    <!-- Quenton Juma
-     Oct 27, 2024
-     Assignment 2.2: The Building Blocks for Javascript - Functions
-      -->
-      <button id onclick="flipcoin()">Flip</button>
-<!-- This is player one image when they click the button -->
-     <p>PLAYER 1</p>
-     <image id="player1Img"></image>
-     <img src = "images/Heads.png.jpeg"/>
-<!-- This is player two image after they click the button -->
-     <p>PLAYER 2</p>
-     <image id="player2Img"></image>
-     <img src = "images/tails.png.jpeg"/>
-
-     <p id="finalResult">Final results goes here </p>
+    <h1>Coin Flip Game</h1>
+    <button type="button" onclick="flipcoin()">Flip Coin</button><br>
+    <img id="player1Img" alt="Player 1 Coin" width="100"><br>
+    <img id="player2Img" alt="Player 2 Coin" width="100"><br>
+    <p id="finalResult"></p>
+    <script src="game.js"></script>
 </body>
 </html>

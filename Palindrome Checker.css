@@ -1,0 +1,35 @@
+/* 
+    Styles for Assignment 3.1: Palindrome Checker
+    This adds background color, text styling, and form layout.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Dark text color */
+    text-align: center; /* Centered text */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold; /* Bold text for results */
+}
